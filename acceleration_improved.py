@@ -35,7 +35,6 @@ acceleration = 0.0
 mode = MODE_WAITING
 
 def beam_change(pin):
-    print("ch")
     global time_at_a, time_at_b, time_at_c, time_at_d, last_time, distance, velocity_1, velocity_2, acceleration, mode
     broken = pin.value() == 0
     if not broken:
