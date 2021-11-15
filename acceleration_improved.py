@@ -8,7 +8,7 @@ data_pin = 4
 bus = 0
 
 gate_detect_pin = 15
-reset_pin = 1
+reset_pin_num = 1
 
 i2c = machine.I2C(bus, sda=machine.Pin(data_pin), scl=machine.Pin(clock_pin))
 display = ssd1306.SSD1306_I2C(128,64,i2c)
